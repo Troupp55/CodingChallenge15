@@ -13,14 +13,23 @@ const EducationItem = ({ institution, degree, years }) => {
 
 const Education = () => {
     const education = [
-        { institution: 'University of South Florida', degree: 'B.A. in Business Administration and Information Systems', years: '2021 - 2025' },
+        { 
+            institution: 'University of Southern Florida (Muma)', 
+            degree: 'Bachelor of Science in Information Systems', 
+            years: '2022-2025' 
+        }
     ];
 
     return (
         <div className="education">
             <h2>Education</h2>
             {education.map((edu, index) => (
-                <EducationItem key={index} institution={edu.institution} degree={edu.degree} years={edu.years} />
+                <EducationItem 
+                    key={index} 
+                    institution={edu.institution} 
+                    degree={edu.degree} 
+                    years={edu.years} 
+                />
             ))}
         </div>
     );
