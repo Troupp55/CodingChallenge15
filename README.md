@@ -1,1 +1,1 @@
-This project is an "About Me" page created using React. The page displays personal information, skills, education, and professional experience.
+The page displays personal information, skills, education, and professional experience.
