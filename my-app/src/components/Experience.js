@@ -19,6 +19,18 @@ const ExperienceItem = ({ title, company, duration, details }) => {
 const Experience = () => {
     const experiences = [
         {
+            title: 'Customer Success Intern',
+            company: 'Threshold 360',
+            duration: '2024-Present',
+            details: [
+                'Assisted clients in navigating and utilizing the Threshold 360 dashboard.',
+                'Provided training and support for creating and sharing virtual tours and maps.',
+                'Collaborated with the Customer Success team to address client issues and ensure satisfaction.',
+                'Developed shareable maps and visual content for client presentations.',
+                'Conducted data analysis to improve customer engagement and product usage.'
+            ]
+        },
+        {
             title: 'Sales Internship',
             company: 'JAMES ENGINEERING',
             duration: '2022-2023',
