@@ -1,0 +1,21 @@
+.personal-info {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.personal-info h1 {
+    color: #333;
+}
+
+.personal-info a {
+    color: #0073b1;
+    text-decoration: none;
+}
+
+.personal-info a:hover {
+    text-decoration: underline;
+}
