@@ -13,7 +13,7 @@ const EducationItem = ({ institution, degree, years }) => {
 
 const Education = () => {
     const education = [
-        { institution: 'University of South Florida', degree: 'B.A. in Business Administration and Information Systems', years: '2020 - 2024' },
+        { institution: 'University of South Florida', degree: 'B.A. in Business Administration and Information Systems', years: '2021 - 2025' },
     ];
 
     return (
