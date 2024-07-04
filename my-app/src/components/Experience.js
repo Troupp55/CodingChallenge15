@@ -13,7 +13,7 @@ const ExperienceItem = ({ title, company, duration }) => {
 
 const Experience = () => {
     const experiences = [
-        { title: 'Founder', company: 'Resistbot', duration: '2020 - Present' },
+        { title: 'Part Owner', company: 'ColoradoN5x', duration: '2018 - 2021' },
         { title: 'VP of Design', company: 'Causes', duration: '2013 - 2015' },
         { title: 'Founding Designer', company: 'Mint', duration: '2007 - 2009' },
     ];
